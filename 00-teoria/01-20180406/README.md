@@ -4,11 +4,13 @@ HTML, sigla en inglés de HyperText Markup Language (lenguaje de marcas de hiper
 
 > https://es.wikipedia.org/wiki/HTML
 
-## Markdown
+## CSS
 
-Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Se distribuye bajo licencia BSD y se distribuye como plugin (o al menos está disponible) en diferentes sistemas de gestión de contenidos (CMS). Markdown convierte el texto marcado en documentos XHTML utilizando html2text creado por Aaron Swartz. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.
+El CSS (hojas de estilo en cascada - Cascading Stylesheets) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML). Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.
 
-> https://es.wikipedia.org/wiki/Markdown
+Esta separación entre la estructura y la presentación es muy importante, ya que permite que sólo cambiando los CSS se modifique completamente el aspecto de una página web. Esto posibilita, entre otras cosas, que los usuarios puedan usar hojas de estilo personalizadas (como hojas de estilo de alto contraste o de accesibilidad).
+
+> http://www.arumeinformatica.es/dudas/css/
 
 ## Javascript
 
@@ -21,6 +23,12 @@ Para sustentar la correcta integración de JavaScript en todas las plataformas q
 La popularidad de JavaScript ha ido aumentando enormemente con el tiempo y hoy en día su uso no se restringe sólo al navegador. En los últimos tiempos se ha popularizado una tecnología que nos permite utilizar JavaScript de lado del servidor: NodeJS. Pero primero, centrémonos en la base del lenguaje JavaScript.
 
 > https://openclassrooms.com/courses/aprende-a-programar-con-javascript/que-es-javascript
+
+## Markdown
+
+Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. Se distribuye bajo licencia BSD y se distribuye como plugin (o al menos está disponible) en diferentes sistemas de gestión de contenidos (CMS). Markdown convierte el texto marcado en documentos XHTML utilizando html2text creado por Aaron Swartz. Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.
+
+> https://es.wikipedia.org/wiki/Markdown
 
 ## Git
 
