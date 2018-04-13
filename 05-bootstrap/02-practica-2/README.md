@@ -1,0 +1,6 @@
+- Crear un container
+- Crear un Card
+- Dentro del card: crear un formulario de tipo login
+    - Input Text: Usuario
+    - Input Text: Password
+    - Boton: Ingresar
