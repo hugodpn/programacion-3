@@ -1,0 +1,80 @@
+<!--
+Trabajo Práctico Nro 3
+Crear la misma web que utilizamos en el tp2 pero esta vez aplicando los estilos de Bootstrap 4.
+
+Crear las siguientes páginas: Inicio, Perfil, Productos, Servicios
+Hacer un menú para ir de una págian a cualquiera de las otras.
+ -->
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    </head>
+  
+    <body>
+      <div class="header1">
+          <br>
+          <br>    
+          <h1>Servicios</h1>
+      </div>
+  
+ <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Inicio.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Perfil.html">Perfil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Servicios.html">Servicios</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+   <div class="column">
+     <div class="card">
+        <br>
+        <br>
+      
+       <h2>Asesoramiento E-Learning</h2>
+       <p>Mas de 10 a&ntilde;os de experiencia en el uso de diferentes herramientas y metodolog&iacute;as de E-learning</p>
+     </div>
+
+     <div class="card">
+       <h2>Quality Assurance</h2>
+       <p>Aseguramiento de la calidad usando las &uacute;ltimas metodolg&iacute;as de testing</p>
+     </div>
+
+     <div class="card">
+       <h2>Dise&ntilde;o Web</h2>
+       <p>Manejo de las &uacute;ltimas tecnolog&iacute;as en Dise&ntilde;o Web</p>
+     </div>
+   </div>
+    
+
+ 
+   <div class="footer">
+      <footer class="container">
+          <p>Guzman, Cristian Copyright 2018 </p>
+        </footer>
+  
+  </div>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+ </body>
+ </html>
