@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form id="formPersonal">
+        <p>
+            <label for="">Nombre:</label>
+            <input type="text" id="nombre" />
+        </p>
+        <p>
+            <label for="">Apellido:</label>
+            <input type="text" id="apellido" />
+        </p>
+        <p>
+            <label for="">Sexo</label><br />
+            <select name="" id="sexo">
+                <option value="femenino">Femenito</option>
+                <option value="masculio">Masculino</option>
+            </select>
+        </p>
+    </form>
+
+    <button onclick="enviarDatos()">Enviar</button>
+
+    <h3 id="resultado"></h3>
+
+    <script>
+
+        function enviarDatos() {
+
+            let nombre = document.getElementById("nombre").value;
+            let apellido = document.getElementById("apellido").value;
+            let sexo = document.getElementById("sexo").value;
+
+            let request = { nombre: nombre, apellido: apellido, sexo: sexo };
+
+            document.getElementById("resultado").innerHTML = JSON.stringify(request);
+
+            setTimeout(function() {
+                document.getElementById("resultado").innerHTML = JSON.stringify(request) + "... Enviada exitosamente";
+            }, 3000);
+
+        }
+    </script>
+</body>
+
+</html>
